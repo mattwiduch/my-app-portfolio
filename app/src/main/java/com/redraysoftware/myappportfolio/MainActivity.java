@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
         //initialise buttons
         mButtonMoviesApp = (Button) findViewById(R.id.button_movies_app);
         mButtonScoresApp = (Button) findViewById(R.id.button_scores_app);
