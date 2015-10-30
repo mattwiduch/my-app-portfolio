@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="72dp">
+            <TextView
+                android:id="@+id/main_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/main_title"
+                android:textSize="24sp"
+                android:textColor="@android:color/black"
+                android:layout_gravity="center"
+                />
+    </FrameLayout>
+
+        <Button
+            style="@style/ButtonStyle"
+            android:text="@string/movies_app_label"
+            android:id="@+id/button_movies_app"/>
+        <Button
+            style="@style/ButtonStyle"
+            android:text="@string/scores_app_label"
+            android:id="@+id/button_scores_app"/>
+        <Button
+            style="@style/ButtonStyle"
+            android:text="@string/library_app_label"
+            android:id="@+id/button_library_app"/>
+        <Button
+            style="@style/ButtonStyle"
+            android:text="@string/bib_app_label"
+            android:id="@+id/button_bib_app"/>
+        <Button
+            style="@style/ButtonStyle"
+            android:text="@string/reader_app_label"
+            android:id="@+id/button_reader_app"/>
+        <Button
+            style="@style/ButtonStyle"
+            android:text="@string/capstone_app_label"
+            android:id="@+id/button_capstone_app"
+            android:backgroundTint="@color/colorAccent"/>
+
+</LinearLayout>
