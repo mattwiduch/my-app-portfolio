@@ -20,33 +20,35 @@
                 android:layout_height="wrap_content"
                 android:text="@string/main_title"
                 android:textSize="24sp"
+                android:textColor="@android:color/black"
                 android:layout_gravity="center"
                 />
     </FrameLayout>
 
         <Button
             style="@style/ButtonStyle"
-            android:text="Popular Movies"
+            android:text="@string/movies_app_label"
             android:id="@+id/button_movies_app"/>
         <Button
             style="@style/ButtonStyle"
-            android:text="Scores App"
+            android:text="@string/scores_app_label"
             android:id="@+id/button_scores_app"/>
         <Button
             style="@style/ButtonStyle"
-            android:text="Library App"
+            android:text="@string/library_app_label"
             android:id="@+id/button_library_app"/>
         <Button
             style="@style/ButtonStyle"
-            android:text="Build it Bigger"
+            android:text="@string/bib_app_label"
             android:id="@+id/button_bib_app"/>
         <Button
             style="@style/ButtonStyle"
-            android:text="XYZ Reader"
+            android:text="@string/reader_app_label"
             android:id="@+id/button_reader_app"/>
         <Button
             style="@style/ButtonStyle"
-            android:text="Capstone App"
-            android:id="@+id/button_capstone_app"/>
+            android:text="@string/capstone_app_label"
+            android:id="@+id/button_capstone_app"
+            android:backgroundTint="@color/colorAccent"/>
 
 </LinearLayout>
