@@ -1,6 +1,5 @@
-# my-app-portfolio
+# My App Portfolio
 <img src="https://cloud.githubusercontent.com/assets/15446842/14937964/1c50a9bc-0f0e-11e6-8f4c-4ff0c803aaba.png"/ width="320" align= "right">
-## Description
 Simple Android app that showcases Udacity Android Nanodegree projects.
 
 ## Licence
